@@ -20,7 +20,7 @@ type Servico struct {
 	Titulo      string
 	Descricao   string
 	Status      Status
-	ClienteNome string // simples por ora, sem módulo CRM ainda
+	ClienteNome string // simples sem módulo CRM ainda
 	CriadoEm   time.Time
 	AtualizadoEm time.Time
 }
