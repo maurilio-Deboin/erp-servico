@@ -5,7 +5,7 @@ import (
 )
 
 var (
-	errNãoEncontrado 	= errors.New("Produto não encontrado")
-	errNomeObrigatorio 	= errors.New("Nome é obrigatorio")
-	errPrecoInvalido	= errors.New("Preço invalido")
+	ErrNaoEncontrado 	= errors.New("Produto não encontrado")
+	ErrNomeObrigatorio 	= errors.New("Nome é obrigatorio")
+	ErrPrecoInvalido	= errors.New("Preço invalido")
 )
